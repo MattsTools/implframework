@@ -2,10 +2,10 @@ package LambdaFramework
 
 import (
 	"encoding/json"
-	"flowkey.io/packages/go/implframework/Common"
-	"flowkey.io/packages/go/weberrors/WebErrors"
 	"fmt"
 	"github.com/aws/aws-lambda-go/events"
+	"github.com/mattstools/implframework/Common"
+	"github.com/mattstools/weberrors/WebErrors"
 	"net/http"
 )
 

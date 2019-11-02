@@ -1,6 +1,6 @@
 package LambdaFramework
 
-import "flowkey.io/packages/go/implframework/Common"
+import "github.com/mattstools/implframework/Common"
 
 func KinesisErrorResponse(err error, alert bool) error {
 	Common.ProcessError(err)

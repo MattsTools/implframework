@@ -1,9 +1,9 @@
 package Common
 
 import (
-	"flowkey.io/packages/go/weberrors/WebErrors"
 	"fmt"
 	"github.com/getsentry/raven-go"
+	"github.com/mattstools/weberrors/WebErrors"
 	"os"
 )
 

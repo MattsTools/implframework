@@ -2,9 +2,9 @@ package LambdaFramework
 
 import (
 	"errors"
-	"flowkey.io/packages/go/implframework/Common"
-	"flowkey.io/packages/go/weberrors/WebErrors"
 	"github.com/aws/aws-lambda-go/events"
+	"github.com/mattstools/implframework/Common"
+	"github.com/mattstools/weberrors/WebErrors"
 )
 
 func AuthoriserUnauthorisedAccessResponse() (events.APIGatewayCustomAuthorizerResponse, error) {
