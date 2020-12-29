@@ -1,6 +1,6 @@
 module github.com/mattstools/implframework
 
-go 1.12
+go 1.15
 
 require (
 	github.com/aws/aws-lambda-go v1.11.1
